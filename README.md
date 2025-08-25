@@ -14,7 +14,7 @@
 
 
 #### Next step:
-- Navigate using the terminal to the folder your .proto file is located, then run this comand to create the decoder file (make sure Nodejs is installed and you are in your project folder):  <pre>```protoc --plugin=../node_modules/.bin/protoc-gen-ts_proto --ts_proto_out=. .PublicAggreBookTickerV3Api.proto```</pre>
+- Navigate using the terminal to the folder your .proto file is located, then run this comand to create the decoder file (make sure Nodejs is installed and you are in your project folder):  <pre>```protoc --plugin=../node_modules/.bin/protoc-gen-ts_proto --ts_proto_out=. ./PublicAggreBookTickerV3Api.proto```</pre>
 
 - #### Pay attention to the '../node_modules/' path, change it if needed ( you probably will ).
 - #### Also, pay attention to this part '.PublicAggreBookTickerV3Api.proto', each .proto name is differente, change if needed.
