@@ -4,7 +4,7 @@
 - Terminal
 
   
-- The .proto file, you can get it [here](mexc-spot-websocket-js-ts). Download the one needed, to find wich one you need click [here](https://mexcdevelop.github.io/apidocs/spot_v3_en/#websocket-market-streams) and look for "Request Parameter", then download the .proto corresponding to the parameter.
+- The .proto file, you can get it [here](mexc-spot-websocket-js-ts). Download the one needed, to find wich one you need click [here](https://github.com/mexcdevelop/websocket-proto) and look for "Request Parameter", then download the .proto corresponding to the parameter.
 
   
 - protobufjs, you can install it using  <pre>```npm i protobufjs```</pre>
